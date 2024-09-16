@@ -53,5 +53,6 @@ public class RequestBodyStringController {
     public String requestBodyStringV4(@RequestBody String messageBody) {
         log.info("messageBody={}", messageBody);
         return "ok";
+
     }
 }
